@@ -1,0 +1,74 @@
+.infoBox {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container p {
+    font-weight: bolder;
+}
+
+.container .city {
+    font-size: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.container1 .smallContainer2 p {
+    font-size: 30px;
+}
+
+.smallContainer2 {
+    margin-top: 30px;
+}
+
+.smallContainer2 .weath {
+    max-width: 170px;
+}
+
+.container1 .tempe  p{
+    font-size: 20px;
+    display: flex;
+}
+
+.container1 .smallContainer2 .weath p{
+    font-size: 20px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 470px) {
+    .container2 p {
+        max-width: 75px;
+    }
+
+    .container1 .tempe p {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .container2 .humi {
+        margin-top: 20px;
+    }
+
+    .container2 .pres {
+        margin-top: 20px;
+    }
+}
